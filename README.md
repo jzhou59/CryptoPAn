@@ -1,14 +1,15 @@
 # CryptoPAn
-[toc]
+## Project Structure
+```
 CryptoPAn
-│   .gitignore
-│   LICENSE
-│   README.md
+│   .gitignore : git ignore file
+│   LICENSE : apache license
+│   README.md : current file
 │
 ├───.vscode
-│       launch.json
+│       launch.json : launch file for java in vscode
 │
-├───API
+├───API : java doc related files
 │   │   allclasses-frame.html
 │   │   allclasses-noframe.html
 │   │   constant-values.html
@@ -33,14 +34,15 @@ CryptoPAn
 │                   package-tree.html
 │
 ├───lib
-│       CryptoPAn.jar
+│       CryptoPAn.jar : jar package
 │
 └───src
-    │   sampleTest.java
+    │   sampleTest.java : test class for CryptoPAn
     │
     └───org
         └───datanon
             └───CryptoPAn
-                    AES.java
-                    CryptoPAn.java
-                    CryptoPAnRunTimeException.java
+                    AES.java : AES module used in CryptoPAn
+                    CryptoPAn.java : CryptoPAn
+                    CryptoPAnRunTimeException.java : Exception File
+```
