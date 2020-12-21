@@ -65,23 +65,14 @@ Let $F$ be a function from {0,1}$^n$ to {0,1}$^n$, here $F$ is CryptoPAn functio
 
 Let $f_i$ be a function from {0,1}$^i$ to {0,1}, for $i = 0,1,···,n-1$ and $f_0$ is a constant. Here $f$ is the function for generating xor bits.
 
-Given an n-bit IP address $a$, $a=a_1a_2···a_n$, $f_i=f_i(a_1a_2···a_i)=0/1$, $F_i=a^{'}_{1}a^{'}_{2}···a^{'}_{i}$. Ranging $i$ from 0 to 31, $a^{'}_{i}$=$a_{i}\oplus f_{i-1}(a_1a_2···a_{i-1})$.
+Given an n-bit IP address $a$, $a=a_1a_2···a_n$, $f_i=f_i(a_1a_2···a_i)=0/1$, $F_i=a^{'}_{1}a^{'}_{2}···a^{'}_{i} $. Ranging $i$ from 0 to 31, $a^{'}_{i}$=$a_{i}\oplus f_{i-1}(a_1a_2···a_{i-1})$.
 
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://s3.ax1x.com/2020/12/21/rBYdHI.png">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">CryptoPAn</div>
-</center>
+[![CryptoPAn.png](https://s3.ax1x.com/2020/12/21/rBYdHI.png)](https://imgchr.com/i/rBYdHI)
 
 It is noted that a 32-height complete binary tree can represent the entire set of possible distinct IPv4 addresses. As [[1]](#references) has illustrated, Figure 1(a) shows a simplified IP addresses space using a complete binary tree. Figure 1(b) shows an orignial address tree including 9 IP addresses for example. According to exclusive-or properties, $f$ can be viewed as a flip function, which decides whether original bits in corresponding position will turn over or not. Similar as IP address binary tree, $f$ can also be represented as a flip tree. Figure 1(c) reveals an example of flip tree. After applying flip function (or exclusive-or) of Figure 1(b) to Figure 1(c), Figure 1(d) shows the output of 9 graphcial IP addresses under CryptoPAn.
 
 ## Other Implementation of CryptoPAn
-This project provides Java version of CryptoPAn, with reference to [[2][3][4]](#references), a python version. Another python version supporting IPv6 is in [[5]](#references). Also, C lang version could be found in [[6]](#references) which improves AES performence. Other implementations are published in [[7][8][9][10][11][12]], corresponding language are C#, Go, Perl, VHDL, Ruby, and Julia.
+This project provides Java version of CryptoPAn, with reference to [[2][3][4]](#references), and [4] is a python version. Another python version supporting IPv6 is in [[5]](#references). Also, C lang version could be found in [[6]](#references) which improves AES performence. Other implementations are published in [[7][8][9][10][11][12]], corresponding language are C#, Go, Perl, VHDL, Ruby, and Julia.
 
 ## References
 [1]: Xu, J., Fan, J., Ammar, M. H., & Moon, S. B. (2002, November). Prefix-preserving ip address anonymization: Measurement-based security evaluation and a new cryptography-based scheme. In *10th IEEE International Conference on Network Protocols, 2002. Proceedings*. (pp. 280-289). IEEE.
