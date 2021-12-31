@@ -3,3 +3,5 @@ matplotlib/tree.py
 .gitignore
 matplotlib/cryptopan.png
 matplotlib/kiuhkvln.png
+*.todo
+target

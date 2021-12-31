@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.datanon.CryptoPAn;
+package cn.junjiezhou;
 
 /**
  * Exception class of CryptoPAn to manage CryptoPAn exception in an unified way
