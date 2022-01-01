@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html) [![GitHub release](https://img.shields.io/badge/release-download-orange.svg)](https://github.com/jzhou59/CryptoPAn/releases) [![Programming language](https://img.shields.io/badge/language-java-blue)](https://img.shields.io/badge/language-java-blue)
 ## Intro
 CryptoPAn is an crypto-based anonymization algorithm for IP address. It is originally implemented by C/C++. This repo provides an alternative of **Java** version.
-Details and other implementations could be found in [docs/CryptoPAn](docs/CryptoPAn.md).
+Details and other implementations could be found in [docs/CryptoPAn](docs/CryptoPAn.md) or [gh-pages for CryptoPAn](www.junjiezhou.cn/cryptopan).
 
 ## Usage
 ```Java
