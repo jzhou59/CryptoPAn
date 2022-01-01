@@ -15,6 +15,7 @@
  * limitations under the License.
  */
 ```
+
 ```mermaid
 graph LR
     A[CryptoPAn]
@@ -48,14 +49,19 @@ graph LR
   - [Other Implementation of CryptoPAn](#other-implementation-of-cryptopan)
   - [References](#references)
   - [Project Structure](#project-structure)
+
+
 # CryptoPAn
+
 ## Introduction
+
 CryptoPAn is a prefix preserving anonymization algorithm specified for IPv4.
 Network trace capture files or logs contain underlying information and can be applied into appropriate research, such as security analysis and commercial plan. However, explicit information concerning privacy issues also exists in such files, which hinders outsourcing them to a third party for the purpose of research. IP address is a typical of privacy information due to its direct reflection on host location.
 To protect IP address from revealing when publish or outsource trace files, appropriate anonymization tools should be applied on IP address. Xu et. al [[1]](#references) proposed a cryptographic-based prefix-preserving scheme, so-called CryptoPAn, to anonymize IP addresses, meanwhile retaining the prefix stucture of them.
 The source prototype of CryptoPAn implemented in cpp was published in Gatech website, but it is off shelf now. However, the source code are redistributed by many people and could be found in [[2][3]](#references). This project provides a java version of CryptoPAn.
 
 ## CryptoPAn Mechanism
+
 There are powerful abilities built in CryptoPAn and corresponding. Frist, able to anonymize original IP addresses to obfuscated ones, CryptoPAn is proved to be a deterministic one-to-one mapping. It can obfuscate IP addresses and, at the same time, preserve prefix relationships among them. Besides, it ensures the prefix preserving property accurate to every single bit. 
 
 As for its algorithms, IP address prefix properties are utilized effectively. In general, CryptoPAn generates 32 bits to operate exclusive-or with the original IP address. While the bits are not generated randomly, but generated according to the original IP address.
@@ -73,9 +79,11 @@ Given an n-bit IP address $a$, $a=a_1a_2···a_n$, $f_i=f_i(a_1a_2···a_i)=0/
 It is noted that a 32-height complete binary tree can represent the entire set of possible distinct IPv4 addresses. As [[1]](#references) has illustrated, Figure 1(a) shows a simplified IP addresses space using a complete binary tree. Figure 1(b) shows an orignial address tree including 9 IP addresses for example. According to exclusive-or properties, $f$ can be viewed as a flip function, which decides whether original bits in corresponding position will turn over or not. Similar as IP address binary tree, $f$ can also be represented as a flip tree. Figure 1(c) reveals an example of flip tree. After applying flip function (or exclusive-or) of Figure 1(b) to Figure 1(c), Figure 1(d) shows the output of 9 graphcial IP addresses under CryptoPAn.
 
 ## Other Implementation of CryptoPAn
-This project provides Java version of CryptoPAn, with reference to [[2][3][4]](#references), and [[4]](#references) is a python version. Another python version supporting IPv6 is in [[5]](#references). Also, C lang version could be found in [[6]](#references) which improves AES performence. Other implementations are published in [[7][8][9][10][11][12]], corresponding language are C#, Go, Perl, VHDL, Ruby, and Julia.
+
+This project provides Java version of CryptoPAn, with reference to [[2][3][4]](#references), and [[4]](#references) is a python version. Another python version supporting IPv6 is in [[5]](#references). Also, C lang version could be found in [[6]](#references) which improves AES performence. Other implementations are published in [[7][8][9][10][11][12]](#references), corresponding language are C#, Go, Perl, VHDL, Ruby, and Julia.
 
 ## References
+
 [1]: Xu, J., Fan, J., Ammar, M. H., & Moon, S. B. (2002, November). Prefix-preserving ip address anonymization: Measurement-based security evaluation and a new cryptography-based scheme. In *10th IEEE International Conference on Network Protocols, 2002. Proceedings*. (pp. 280-289). IEEE.
 
 [2]: *NetSniff*. Caia.swin.edu.au. (2020). Retrieved 18 December 2020, from http://caia.swin.edu.au/ice/tools/netsniff/.
