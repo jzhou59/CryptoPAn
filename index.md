@@ -84,26 +84,26 @@ This project provides Java version of CryptoPAn, with reference to [[2][3][4]](#
 
 ## References
 
-[1]: Xu, J., Fan, J., Ammar, M. H., & Moon, S. B. (2002, November). Prefix-preserving ip address anonymization: Measurement-based security evaluation and a new cryptography-based scheme. In *10th IEEE International Conference on Network Protocols, 2002. Proceedings*. (pp. 280-289). IEEE.
+1 Xu, J., Fan, J., Ammar, M. H., & Moon, S. B. (2002, November). Prefix-preserving ip address anonymization: Measurement-based security evaluation and a new cryptography-based scheme. In *10th IEEE International Conference on Network Protocols, 2002. Proceedings*. (pp. 280-289). IEEE.
 
-[2]: *NetSniff*. Caia.swin.edu.au. (2020). Retrieved 18 December 2020, from http://caia.swin.edu.au/ice/tools/netsniff/.
+2 *NetSniff*. Caia.swin.edu.au. (2020). Retrieved 18 December 2020, from http://caia.swin.edu.au/ice/tools/netsniff/.
 
-[3]: *certtools/cryptopanlib*. GitHub. (2020). Retrieved 18 December 2020, from https://github.com/certtools/cryptopanlib.
+3 *certtools/cryptopanlib*. GitHub. (2020). Retrieved 18 December 2020, from https://github.com/certtools/cryptopanlib.
 
-[4]: *pycryptopan*. PyPI. (2020). Retrieved 21 December 2020, from https://pypi.org/project/pycryptopan/.
+4 *pycryptopan*. PyPI. (2020). Retrieved 21 December 2020, from https://pypi.org/project/pycryptopan/.
 
-[5]: *yacryptopan*. PyPI. (2020). Retrieved 21 December 2020, from https://pypi.org/project/yacryptopan/.
+5 *yacryptopan*. PyPI. (2020). Retrieved 21 December 2020, from https://pypi.org/project/yacryptopan/.
 
-[6]: Lab, I. (2020). *cryptopANT IP Address Anonymization Library*. Ant.isi.edu. Retrieved 21 December 2020, from https://ant.isi.edu/software/cryptopANT/index.html.
+6 Lab, I. (2020). *cryptopANT IP Address Anonymization Library*. Ant.isi.edu. Retrieved 21 December 2020, from https://ant.isi.edu/software/cryptopANT/index.html.
 
-[7]: *UniStuttgart-VISUS/Sappan.CryptoPAn*. GitHub. (2020). Retrieved 21 December 2020, from https://github.com/UniStuttgart-VISUS/Sappan.CryptoPAn.
+7 *UniStuttgart-VISUS/Sappan.CryptoPAn*. GitHub. (2020). Retrieved 21 December 2020, from https://github.com/UniStuttgart-VISUS/Sappan.CryptoPAn.
 
-[8]: *Yawning/cryptopan*. GitHub. (2020). Retrieved 21 December 2020, from https://github.com/Yawning/cryptopan.
+8 *Yawning/cryptopan*. GitHub. (2020). Retrieved 21 December 2020, from https://github.com/Yawning/cryptopan.
 
-[9]: Kristoff, J. (2020). *IP::Anonymous - Perl port of Crypto-PAn to provide anonymous IP addresses - metacpan.org*. Metacpan.org. Retrieved 21 December 2020, from https://metacpan.org/pod/distribution/IP-Anonymous/lib/IP/Anonymous.pm.
+9 Kristoff, J. (2020). *IP::Anonymous - Perl port of Crypto-PAn to provide anonymous IP addresses - metacpan.org*. Metacpan.org. Retrieved 21 December 2020, from https://metacpan.org/pod/distribution/IP-Anonymous/lib/IP/Anonymous.pm.
 
-[10]: *Overview :: Crypto-PAn :: OpenCores*. Opencores.org. (2020). Retrieved 21 December 2020, from https://opencores.org/projects/cryptopan_core.
+10 *Overview :: Crypto-PAn :: OpenCores*. Opencores.org. (2020). Retrieved 21 December 2020, from https://opencores.org/projects/cryptopan_core.
 
-[11]: *pwood/cryptopan*. GitHub. (2020). Retrieved 21 December 2020, from https://github.com/pwood/cryptopan.
+11 *pwood/cryptopan*. GitHub. (2020). Retrieved 21 December 2020, from https://github.com/pwood/cryptopan.
 
-[12]: *ovarene/CryptoPan.jl*. GitHub. (2020). Retrieved 21 December 2020, from https://github.com/ovarene/CryptoPan.jl.
+12 *ovarene/CryptoPan.jl*. GitHub. (2020). Retrieved 21 December 2020, from https://github.com/ovarene/CryptoPan.jl.
